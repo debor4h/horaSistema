@@ -3,7 +3,7 @@ function carregar(){
     var img = window.document.getElementById('imagem')
 
     dataAtual = new Date();
-    // o comprimento é de 2 e se não tiver 2 preencher com zero
+    //o comprimento é de 2 e se não tiver 2 preencher com zero
     //convertendo hora p string, pq padStart e um metodo de string
 
     hora = dataAtual.getHours().toString().padStart(2, '0')
